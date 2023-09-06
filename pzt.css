@@ -1,3 +1,12 @@
+:root{
+    --cora: #FF0000;
+    --corb: #000000;
+    --corc: #FFFFFF;
+    --cord: #D2691E;
+    --core: #696969;
+    --corf: #D3D3D3;
+}
+
 *{
     margin: 0;
     padding: 0;
