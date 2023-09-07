@@ -175,6 +175,10 @@ font-family: Arial, Helvetica, sans-serif;
 .menhamb{
 text-align: center;
 font-style: italic;
+opacity: 0;
+}
+.show{
+    opacity: 1;
 }
 main{
     display: flex;
