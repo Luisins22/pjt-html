@@ -169,26 +169,12 @@ font-family: Arial, Helvetica, sans-serif;
 .hamb{
     width: 100%;
     background: linear-gradient( 175deg, #D2691E,#f5bb4f);
-    overflow: hidden;
     color: var(--corc);
     height: 50px;
-}
-.hamb:hover .menhamb{
-    display: block;
-}
-@keyframes show {
-    from {
-        transform: translate(1000px);
-    }
-    100% {
-        transform: translateX(0);
-    }
 }
 .menhamb{
 text-align: center;
 font-style: italic;
-display: none;
-animation: show 1s ease-in-out;
 }
 main{
     display: flex;
