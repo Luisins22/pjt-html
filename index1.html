@@ -60,9 +60,11 @@
         <script>
                 const observer = new IntersectionObserver(entries => {
                     console.log(entries)
-                    entries[0].target.classList.add('.inihide-off')
+                    entries[0].target.classList.add('aperitivos-off')
+                }, {
+                    threshold: 0
                 })
-                Array.from(document.querySelectorAll('.inihide')).forEach(Element => {
+                Array.from(document.querySelectorAll('.aperitivos')).forEach(Element => {
                     observer.observe(Element)
                 })
                 
