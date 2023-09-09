@@ -41,7 +41,7 @@ article {
 display: flex;
 flex-wrap: wrap;
 background-color: var(--corb);
-padding-left: 100px;
+padding-left: 50px;
 }
 h3{
     text-align: center;
@@ -166,36 +166,12 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     border-radius: 5px;
 }
-.hamb{
+.aperitivos{
     width: 100%;
     background: linear-gradient( 175deg, #D2691E,#f5bb4f);
     color: var(--corc);
-    height: 100px;
-}
-.hamb:hover .menhamb{
-    display: block;
-}
-@keyframes show {
-   from {
-       transform: translateX(1000px);
-   }
-   100%{
-    transform: translateX(0);
-   }
-}
-@keyframes hide{
-    from {
-        transform: translateX(0px);
-    }
-    to {
-        transform: translateX(1000px);
-    }
-}
-.menhamb{
-text-align: center;
-font-style: italic;
-display: none;
-animation: show 2s ease;
+    height: 100px;font-style: italic;
+    opacity: 0;
 }
 main{
     display: flex;

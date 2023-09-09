@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="pzt.css">
-    <script src="pz.js"></script>
     <title>Document</title>
     
 </head>
@@ -47,8 +46,7 @@
                 </div>
             </article>
 
-            <div class="hamb"> <h1 class="menhamb">Hambúrguer</h1>
-            </div>
+            <div class="aperitivos"><h1>Hambúrguer</h1></div>
         <main>
             <div class="ihamb">
                 <img src="imagens/hamburguer-01.jpeg" alt="" class="a">
@@ -57,6 +55,16 @@
                 <img src="imagens/hamburguer-04.jpeg" alt="" class="d">
             </div>
         </main>
+        <script>
+                const observer = new IntersectionObserver(entries => {
+                    console.log(entries)
+                    entries[0].target.classList.add('.aperitivos-off')
+                })
+                Array.from(document.querySelectorAll('.aperitivos')).forEach(Element => {
+                    observer.observe(Element)
+                })
+                
+        </script>
     
 </body>
 </html>
