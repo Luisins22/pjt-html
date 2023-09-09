@@ -171,7 +171,7 @@ font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient( 175deg, #D2691E,#f5bb4f);
     color: var(--corc);
     height: 100px;font-style: italic;
-    opacity: 0;
+
 }
 main{
     display: flex;
@@ -189,4 +189,11 @@ main{
 }
 .d{
     width: 320px;
+}
+.inihide-off{
+    opacity: 1;
+}
+.inihide{
+    opacity: 0;
+    transition:  1s linear;
 }

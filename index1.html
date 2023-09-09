@@ -46,21 +46,23 @@
                 </div>
             </article>
 
-            <div class="aperitivos"><h1>Hambúrguer</h1></div>
-        <main>
-            <div class="ihamb">
-                <img src="imagens/hamburguer-01.jpeg" alt="" class="a">
-                <img src="imagens/hamburguer-02.jpeg" alt="" class="b">
-                <img src="imagens/hamburguer-03.jpeg" alt="" class="c">
-                <img src="imagens/hamburguer-04.jpeg" alt="" class="d">
-            </div>
-        </main>
+            
+                <div class="aperitivos"><h1>Hambúrguer</h1></div>
+            <main>
+                <div class="ihamb">
+                    <img src="imagens/hamburguer-01.jpeg" alt="hamburguer-01" class="a inihide">
+                    <img src="imagens/hamburguer-02.jpeg" alt="hamburguer-02" class="b inihide">
+                    <img src="imagens/hamburguer-03.jpeg" alt="hamburguer-03" class="c inihide">
+                    <img src="imagens/hamburguer-04.jpeg" alt="hamburguer-04" class="d inihide">
+                </div>
+            </main>
+        
         <script>
                 const observer = new IntersectionObserver(entries => {
                     console.log(entries)
-                    entries[0].target.classList.add('.aperitivos-off')
+                    entries[0].target.classList.add('.inihide-off')
                 })
-                Array.from(document.querySelectorAll('.aperitivos')).forEach(Element => {
+                Array.from(document.querySelectorAll('.inihide')).forEach(Element => {
                     observer.observe(Element)
                 })
                 
