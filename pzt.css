@@ -5,6 +5,7 @@
     --cord: #D2691E;
     --core: #696969;
     --corf: #D3D3D3;
+    --corg: #FF6347;
 }
 
 *{
@@ -181,7 +182,7 @@ main{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--cora);
+    background-color: var(--corg);
 }
 .a{
     width: 300px;
@@ -202,22 +203,22 @@ main{
 .main-container{
     background-color: var(--corc);
     padding: 10px 20px 70px;
-    margin: 10px 40px 10px;
+    margin: 10px 20px 10px;
 }
 .main-container1{
     background-color: var(--corc);
     padding: 10px 20px 70px;
-    margin: 10px 40px 10px;
+    margin: 10px 20px 10px;
 }
 .main-container2{
     background-color: var(--corc);
     padding: 10px 20px 70px;
-    margin: 10px 40px 10px;
+    margin: 10px 20px 10px;
 }
 .main-container3{
     background-color: var(--corc);
     padding: 10px 20px 70px;
-    margin: 10px 40px 10px;
+    margin: 10px 20px 10px;
 }
 h2{
     text-align: center;
