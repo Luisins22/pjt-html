@@ -52,15 +52,46 @@ h3{
     color: var(--cora);
 }
 .i-container{
-    max-width: 30%;
+    
     background-color: var(--corc);
     height: 500px;
     margin: 10px 20px 10px;
 }
 .i-queijo {
-   max-width: 60%;
-   display: block;
+    width: 300px;
+    display: block;
    margin: auto;
+   padding-top: 20px;
+}
+@media screen and (max-width: 500px){
+    .i-container{
+        min-width: 60%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .a-container{
+        min-width: 60%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .e-container{
+        min-width: 60%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .o-container{
+        min-width: 60%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .u-container{
+        min-width: 60%;
+    }
+    
 }
 .uqueijo{  
     font-size: 1.0em;
@@ -78,23 +109,56 @@ h3{
 .o-grell {
     width: 300px;
     background-size: cover;
-    margin: 20px 30px 0;
+    display: block;
+    margin: auto;
  }
  .u-fran{
     width: 300px;
     background-size: cover;
-    margin: 20px 30px 0;
+    display: block;
+    margin: auto;
  }
  .a-mussar{
     width: 300px;
     background-size: cover;
-    margin: 20px 30px 0;
+    display: block;
+    margin: auto;
  }
  .e-veget{
     width: 300px;
     background-size: cover;
     margin: 20px 30px 0;
  }
+ @media screen and (max-width: 500px){
+    .i-queijo{
+        max-width: 70%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .o-grell{
+        max-width: 70%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .u-fran{
+        max-width: 70%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .a-mussar{
+        max-width: 70%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .e-veget{
+        max-width: 70%;
+    }
+    
+}
  .a-container{
     background-color: var(--corc);
     height: 500px;
@@ -208,7 +272,6 @@ main{
 .aperitivos-off{
     opacity: 1;
 }
-
 .main-container{
     background-color: var(--corc);
     max-width: 100%;
