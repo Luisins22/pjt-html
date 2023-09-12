@@ -52,7 +52,6 @@ h3{
     color: var(--cora);
 }
 .i-container{
-    
     background-color: var(--corc);
     height: 500px;
     margin: 10px 20px 10px;
@@ -60,8 +59,8 @@ h3{
 .i-queijo {
     width: 300px;
     display: block;
-   margin: auto;
-   padding-top: 20px;
+    margin: auto;
+    padding-top: 20px;
 }
 @media screen and (max-width: 500px){
     .i-container{
@@ -100,34 +99,41 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 .apreco{
-    margin: 100px  140px 0;
+    margin: auto;
+    display: block;
     color: var(--corb);
     background-color: var(--cord);
     font-size: 1.1em;
     border-radius: 5px;
+    margin-top: 100px;
 }
 .o-grell {
     width: 300px;
     background-size: cover;
     display: block;
     margin: auto;
+    padding-top: 20px;
  }
  .u-fran{
-    width: 300px;
+    width: 350px;
     background-size: cover;
     display: block;
     margin: auto;
+    padding: 20px 20px 0;
  }
  .a-mussar{
-    width: 300px;
+    width: 350px;
     background-size: cover;
     display: block;
     margin: auto;
+    padding: 20px 20px 0;
  }
  .e-veget{
-    width: 300px;
+    width: 350px;
     background-size: cover;
-    margin: 20px 30px 0;
+    margin: auto;
+    display: block;
+    padding: 20px 20px 0;
  }
  @media screen and (max-width: 500px){
     .i-queijo{
@@ -204,33 +210,39 @@ text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 }
 .epreco{
-    margin: 100px  140px 0;
+    display: block;
+    margin: auto;
     color: var(--corb);
     background-color: var(--cord);
     font-size: 1.1em;
-    border-radius: 5px;
+    border-radius: 5px;margin-top: 100px;
 }
 .ipreco{
-    margin: 100px  140px 0;
+    margin: auto;
+    display: block;
     color: var(--corb);
     background-color: var(--cord);
     font-size: 1.1em;
     border-radius: 5px;
+    
 }
 .opreco{
-    margin: 70px  140px 0;
+    margin: auto;
+    display: block;
     color: var(--corb);
     background-color: var(--cord);
     font-size: 1.1em;
     border-radius: 5px;
+    
 }
 .upreco{
     display: block;
-    margin: 70px 140px 0;
+    margin: auto;
     color: var(--corb);
     background-color: var(--cord);
     font-size: 1.1em;
     border-radius: 5px;
+   
 }
 .aperitivos{
     width: 100%;
