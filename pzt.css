@@ -6,6 +6,7 @@
     --core: #696969;
     --corf: #D3D3D3;
     --corg: #FF6347;
+    --corh: #87CEEB;
 }
 
 *{
@@ -20,7 +21,8 @@ body{
     background-color: var(--core);
     padding: 20px;
     text-align: center;
-    color: var(--cora);
+    color: var(--corb);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
 }
 .teste{
    width: 100%;
@@ -33,7 +35,7 @@ body{
    font-size: 1.5em;
    font-style: italic;
    font-family: 'Courier New', Courier, monospace;
-   color: var(--corb);
+   color: var(--cora);
    background-image: url(imagens/pzt.jpg); 
    background-position: 50% 50%;
    background-size: cover;
@@ -215,7 +217,8 @@ font-family: Arial, Helvetica, sans-serif;
     color: var(--corb);
     background-color: var(--cord);
     font-size: 1.1em;
-    border-radius: 5px;margin-top: 100px;
+    border-radius: 5px;
+    margin-top: 100px;
 }
 .ipreco{
     margin: auto;
@@ -224,7 +227,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cord);
     font-size: 1.1em;
     border-radius: 5px;
-    
+    margin-top: 50px;
 }
 .opreco{
     margin: auto;
@@ -233,7 +236,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cord);
     font-size: 1.1em;
     border-radius: 5px;
-    
+    margin-top: 50px;
 }
 .upreco{
     display: block;
@@ -242,7 +245,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cord);
     font-size: 1.1em;
     border-radius: 5px;
-   
+    margin-top: 50px;
 }
 .aperitivos{
     width: 100%;
@@ -312,8 +315,40 @@ main{
     padding: 10px 10px 0;
     height: 400px;
 }
-h2{
+.titulo{
     text-align: center;
     font-size: 2.0em;
     color: var(--cord);
+}
+footer{
+    background-color: var(--corh);
+    width: 100%;
+}
+.rodape{
+    height: 100px;
+    display: block;
+    text-align: center;
+}
+.rodape > a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: var(--corb);
+}
+.rodape > a:hover{
+    color: var(--cora);
+    text-decoration: underline;
+}
+footer > p{
+    text-align: center;
+    font-size: 1.1em;
+    color: var(--cora);
+}
+p > a{
+    text-decoration: none;
+    color: var(--corb);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p > a:hover{
+    color: var(--cord);
+    text-decoration: underline;
 }
